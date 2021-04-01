@@ -19,7 +19,7 @@ The following candidates were up for election: Charles Casper Stockham, Diana De
 | Stockham    | 85,213      | 23.0%     |
 | Degette     | 272,892     | 73.8%     |
 | Doane       | 11,606      | 3.1%      |
-|          
+         
 
 As is presented in the above table, the winner of the electoral race was Diana DeGette with 272,892 votes which is 73.8% of the total. All of this information was written to a text file election_analysis.txt in the 'Analysis' folder.
 
@@ -38,7 +38,7 @@ The following table summarizes the results from the challenge.
 | Jefferson   | 38,855      | 10.5%     |
 | Denver      | 306,055     | 82.8%     |
 | Arapahoe    | 24,801      | 6.7%      |
-|          
+        
 
 Denver county had, by far the largest voting turnout, ringing in over 80% of the total votes. The python script also wrote this information to the election_analysis.txt file.
 
