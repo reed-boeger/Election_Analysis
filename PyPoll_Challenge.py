@@ -3,9 +3,14 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("Resources", "election_results.csv")
+#Due to repeated problems with os.path.join I chose to call the paths directly, and the "r" converts the path strings to raw strings to avoid an error.
+#Reference stackoverflow url: <https://stackoverflow.com/questions/37400974/unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3-trunca>
+#If cloning this repository, un-comment the relative path (lines 9 and 12) and comment out my direct path lines 10 and 13.
+#file_to_load = os.path.join("Resources", "election_results.csv")
+file_to_load = r"C:\Users\reeda\Documents\GitHub\Election_Analysis\Resources\election_results.csv"
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+#file_to_save = os.path.join("Analysis", "election_analysis.txt")
+file_to_save = r"C:\Users\reeda\Documents\GitHub\Election_Analysis\Analysis\election_analysis.txt"
 
 # Initialize a total vote counter.
 total_votes = 0
